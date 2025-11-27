@@ -77,7 +77,7 @@ function averageEvenElementsWorker(...arr) {
 
 	if (countEvenElement === 0) return 0;
 
-	return sumEvenElement / countEvenElement;
+	return +(sumEvenElement / countEvenElement).toFixed(2);
 }
 
 // 3
