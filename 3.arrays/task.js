@@ -5,12 +5,10 @@ function compareArrays(arr1, arr2) {
 
 //2
 function getUsersNamesInAgeRange(people, gender) {
-	const result = people
+	return result = people
 		.filter(people => people.gender === gender)
 		.map(people => people.age)
 		.reduce((average, age, index, array) => {
 			return average + age / array.length;
 		}, 0);
-
-	return result;
 }
