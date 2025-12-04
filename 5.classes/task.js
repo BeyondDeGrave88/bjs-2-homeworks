@@ -76,12 +76,7 @@ addBook(book) {
 }
 
 findBookBy(type, value) {
-    for (const book of this.books) {
-        if (book[type] === value) {
-            return book;
-        }
-    }
-    return null;
+    return this.books.find(book => book[type] === value) || null;
 }
 
 giveBookByName(bookName) {
