@@ -1,6 +1,6 @@
 // 1
 class PrintEditionItem {
-	constructor(name, releaseDate, pagesCount, state, type) {
+	constructor(name, releaseDate, pagesCount) {
 		this.name = name;
 		this.releaseDate = releaseDate;
 		this.pagesCount = pagesCount;

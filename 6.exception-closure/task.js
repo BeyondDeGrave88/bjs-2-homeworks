@@ -51,17 +51,3 @@ function getTriangle(a, b, c) {
 		};
 	}
 }
-
-const triangle = getTriangle(3, 4, 5);
-
-
-console.log(triangle.perimeter); // 12
-console.log(triangle.area); // 6
-
-const invalidTriangle = getTriangle(1, 2, 3);
-console.log(invalidTriangle)
-
-console.log(invalidTriangle.perimeter); // "Ошибка! Треугольник не существует"
-console.log(invalidTriangle.area); // "Ошибка! Треугольник не существует"
-
-console.log(invalidTriangle.a, invalidTriangle.b)
